@@ -48,36 +48,37 @@ LLM only writes answers from retrieved context.
 
 ## Project structure
 
+```text
 app/
-├─ rag/
-│   ├─ ingest.py        # load documents
-│   ├─ chunking.py      # text → chunks
-│   ├─ embedder.py      # chunks → vectors
-│   ├─ store_faiss.py   # FAISS index
-│   ├─ retriever.py     # vector search + threshold
-│   ├─ decider.py       # should answer or refuse
-│   ├─ prompt.py        # strict prompt builder
-│   ├─ generator.py    # LLM call (JSON output)
-│   ├─ pipeline.py     # full RAG orchestration
-│   └─ run_pipeline.py # CLI entry
-│
-├─ utils/               # logging, helpers
-├─ config.py            # env-based config
-├─ main.py              # FastAPI app
-└─ schemas.py           # API contracts
+  rag/
+    ingest.py         # load documents
+    chunking.py       # text -> chunks
+    embedder.py       # chunks -> vectors
+    store_faiss.py    # FAISS index
+    retriever.py      # vector search + threshold
+    decider.py        # should answer or refuse
+    prompt.py         # strict prompt builder
+    generator.py      # LLM call (JSON output)
+    pipeline.py       # full RAG orchestration
+    run_pipeline.py   # CLI entry
+
+  utils/              # logging, helpers
+  config.py           # env-based config
+  main.py             # FastAPI app
+  schemas.py          # API contracts
 
 data/
-├─ docs/                # your documents
-└─ artifacts/index/     # FAISS index + chunks
+  docs/               # your documents
+  artifacts/
+    index/            # FAISS index + chunks.jsonl + stats.json
 
 eval/
-├─ cases.jsonl          # evaluation cases
-└─ run_eval.py          # eval runner
+  cases.jsonl         # evaluation cases
+  run_eval.py         # eval runner
 
 tests/
-├─ test_retriever.py
-└─ test_api.py
-
+  test_retriever.py
+  test_api.py
 
 ⸻
 
