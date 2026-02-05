@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.DS_Store
+.env
+
+
+data/artifacts/*
+!data/artifacts/.gitkeep
+
+data/docs/*
+!data/docs/.gitkeep

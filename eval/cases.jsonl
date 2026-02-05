@@ -1,0 +1,26 @@
+{"id":"A01","question":"drawing title block requirements","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A02","question":"What is the Title Block Area used for?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A03","question":"Where should general notes be placed relative to the title block area?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A04","question":"What does the CAD template include (e.g., title block, layers, symbology)?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A05","question":"What Autodesk software versions are required/approved for DWG compatibility?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A06","question":"Requirements for text fonts","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A07","question":"When should italic font be used?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A08","question":"When should filled fonts be used?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A09","question":"What is the purpose of the north arrow and where should it be placed?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A10","question":"What are the allowed/typical line widths and their usage?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A11","question":"What are the basic CAD colors listed in the standard?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A12","question":"What does the pen table / color table guidance say?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A13","question":"How should key maps be handled (optional on/off)?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A14","question":"What blocks exist inside the Title Block Area?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+{"id":"A15","question":"Which field appears first: Justification for Change or Description of Change?","must_include":["DOC-001 CAD Standarts"],"expectation":"should_answer"}
+
+{"id":"R01","question":"what color of lamb?","expectation":"should_refuse"}
+{"id":"R02","question":"How to cook ramen?","expectation":"should_refuse"}
+{"id":"R03","question":"Who is the president of the USA?","expectation":"should_refuse"}
+{"id":"R04","question":"Bitcoin price prediction for next week","expectation":"should_refuse"}
+{"id":"R05","question":"write a poem about love","expectation":"should_refuse"}
+{"id":"R06","question":"best workout split for hypertrophy","expectation":"should_refuse"}
+{"id":"R07","question":"How to fix iPhone battery drain?","expectation":"should_refuse"}
+{"id":"R08","question":"What is the capital of France?","expectation":"should_refuse"}
+{"id":"R09","question":"explain quantum mechanics in simple terms","expectation":"should_refuse"}
+{"id":"R10","question":"top 10 movies of all time","expectation":"should_refuse"}

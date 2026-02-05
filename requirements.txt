@@ -1,0 +1,7 @@
+pydantic
+pytest
+faiss-cpu
+numpy
+pypdf
+openai
+python-dotenv
